@@ -12,4 +12,5 @@ steps to execute the project.
 6. The parameter export TIME_ZONE='Asia/Singapore' sets and records the alerts as per specific timezone. by defult it is set to singapore time.
 7. The parameter export NON_COMPLIANCE_HELMET_COLOR='WHITE' # 'WHITE', 'YELLOW', 'RED' , 'BLUE' , 'GREEN' , 'GRAY' is to specify, based on what it should generate alerts.
    for example any one color from this mention above is not present in a current frame will generate an alert.
-6. execute the run file through sh run.sh to execute the project.
+8. copy the folder of new_helmet_mod to /usr/share/vitis-ai-library/models . by cp -r  new_helmet_mod /usr/share/vitis-ai-library/models
+9. execute the run file through sh run.sh to execute the project.
